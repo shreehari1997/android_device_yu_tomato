@@ -104,5 +104,11 @@ TARGET_PROVIDES_WCNSS_QMI := true
 #WIFI_DRIVER_MODULE_NAME := "wlan"
 #WIFI_DRIVER_MODULE_PATH := "/system/lib/modules/wlan.ko"
 
+# Lights
+BOARD_LIGHTS_VARIANT := aw2013
+TARGET_PROVIDES_LIBLIGHT := true
+
+
+
 # Inherit from proprietary files
 include vendor/yu/tomato/BoardConfigVendor.mk
