@@ -65,10 +65,6 @@ TARGET_KERNEL_CONFIG := lineageos_tomato_defconfig
 # HIDL
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
-# LineageHW
-JAVA_SOURCE_OVERLAYS := org.lineageos.hardware|$(DEVICE_PATH)/lineagehw|**/*.java
-
-
 # LMKD stats logging
 TARGET_LMKD_STATS_LOG := true
 
