@@ -23,7 +23,7 @@ TARGET_BOARD_PLATFORM_VARIANT := msm8939
 
 # Vendor security patch level
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.lineage.build.vendor_security_patch=none
+    ro.havoc.build.vendor_security_patch=none
 
 PRODUCT_NAME := havoc_tomato
 BOARD_VENDOR := yu
@@ -38,6 +38,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 BUILD_FINGERPRINT := YU/YUREKA/YUREKA:5.1.1/LMY49J/YOG4PAS8A4:user/release-keys
 
-# Lineage Updater
+# Havoc Updater
 PRODUCT_PROPERTY_OVERRIDES += \
-    lineage.updater.uri=https://raw.githubusercontent.com/eErenYeager/los_ota/master/ota.json
+    havoc.updater.uri=https://raw.githubusercontent.com/shreehari1997/havoc_ota/master/ota.json
+    
